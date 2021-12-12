@@ -1,0 +1,128 @@
+@charset "UTF-8";
+* {
+	text-align: center;
+	margin: 0px;
+}
+body {
+	background-color: #202124;
+	color: white;
+	font-family: Arial;
+	font-size: 30px;
+}
+p {
+	text-align: justify;
+	text-indent: 50px;
+	padding: 40px;
+	margin-left: 50px;
+	margin-right: 600px;
+	text-shadow: black .1em .1em .1em;
+}
+p#intro {
+	margin-left: 200px;
+	margin-right: 200px;
+}
+h1 {
+	text-shadow: black .05em .05em .1em;
+	position: relative;
+	text-align: center;
+	font-size: 70px;
+}
+div.linhahorizontal {
+	width: 1330px;
+	border: 1px solid white;
+	opacity: .4;
+}
+h2 {
+	margin-left: 100px;
+	text-align: left;
+}	
+/*
+.caixas_rosadas {
+	border: 1px solid orchid;
+	border-radius: 10px;
+	background-color: #202124;
+	padding: 40px;
+	width:600px;
+	margin-left:500px;
+	background-color: rgba(32, 33, 36, .3);
+}
+.caixas_azuladas {
+	border: 1px solid rgb(1, 189, 223);
+	border-radius: 10px;
+}
+.caixas_esverdeadas {
+	border: 1px solid rgb(32, 252, 3);
+	border-radius: 10px;
+	background-color: #202124;
+}
+*/
+#conteudocentral {
+	background-color: #121214;
+}
+h2#fraseinicial {
+	text-align: right;
+	margin-right: 100px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+figure.fotoabc {
+	position: relative;
+	box-shadow: 1px 1px 4px black;
+}
+figure.fotoabc img {
+	width: 50%;
+	height: 50%;
+}
+figure.fotoabc figcaption {
+	font-size: 30px;
+	font-family: courier;
+	opacity: 0;
+	color: white;
+	position: absolute;
+	top: 0px;
+	background-color: rgba(0,0,0,.8);
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: 1s;
+}
+figure.fotoabc:hover figcaption {
+	opacity: 1;
+}
+span {
+	font-size: 40px;
+}
+div#justificativas {
+	background-image: url(meninodemochila.jpg);
+}
+p.transicao:hover {
+	transition: 1s;
+	background-color: rgba(0,0,0,.5);
+	border-radius: 10px;
+}
+p#apertodemao {
+	position: absolute;
+	left: 800px;
+	top: 2250px;
+}	
+div#exposicaodoprojeto {
+	background-image: url(maoadultaeinfantil.jpg)
+}
+p#buildthefuture {
+	position: absolute;
+	left: 700px;
+	top: 2800px;
+	font-size: 60px;
+}
+div#dados {
+	background: white;
+	color: black;
+	width: 400px;
+	height: 100px;
+	position: absolute;
+	left: 870px;
+	top: 3700px;
+	border-radius: 10px;
+
+}
